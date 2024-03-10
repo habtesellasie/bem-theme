@@ -1,0 +1,32 @@
+{
+  "name": "bem-theme",
+  "displayName": "Bem Theme",
+  "description": "This theme is custom made to fit my own theme preference give it a try",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/habtesellasie/bem-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "habtesellasie",
+    "bem theme"
+  ],
+  "publisher": "HabtesellasieFissha",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bem Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bem Theme-color-theme.json"
+      }
+    ]
+  }
+}
